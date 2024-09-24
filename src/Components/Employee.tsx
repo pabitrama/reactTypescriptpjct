@@ -1,6 +1,8 @@
 import React from 'react';
 import { EmployeeDetails } from '../Model/Employee';
 
+
+
 import './../assets/styles/table.css'
 
 interface EmployeeData {
@@ -11,7 +13,7 @@ const Employee: React.FC<EmployeeData> = (props: EmployeeData) => {
     return (
         <>
             <h4>Employee Table</h4>
-            <table id="emptable" className="table datatable">
+            <table id="emptable" className="table table-bordered">
                 <thead>
                     <tr>
                         <th>Sl. no.</th>
