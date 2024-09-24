@@ -1,0 +1,40 @@
+#emptable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1.1em;
+    font-family: Arial, sans-serif;
+}
+
+#emptable thead {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+#emptable th {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+#emptable td {
+    padding: 12px 15px;
+    border: 1px solid #dddddd;
+}
+
+#emptable tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#emptable tbody tr:hover {
+    background-color: #e9ecef;
+    transition: background-color 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    #emptable {
+        font-size: 0.9em;
+    }
+    #emptable th, #emptable td {
+        padding: 10px 12px;
+    }
+}
